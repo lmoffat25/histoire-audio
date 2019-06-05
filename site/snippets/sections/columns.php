@@ -13,7 +13,7 @@ $light = array('white', 'light-gray');
         <div class="page-image <?php if ( $data->marginimagegauche()->isNotEmpty()) { ?><?= $data->marginimagegauche() ?><?php } ?>">
           <?php if ( $data->image1()->isNotEmpty()): ?>
             <img src="<?= $data->image1()->toFile()->url() ?>" alt="">
-          <?php endif; ?>
+          <?php endif; ?>   
         </div>
         <div class="page-content <?php if ( $data->titre1()->isNotEmpty() || $data->text1()->isNotEmpty()) { ?>p-r-l-m<?php } ?>">
           <?php if ( $data->titre1()->isNotEmpty() || $data->text1()->isNotEmpty()): ?>
