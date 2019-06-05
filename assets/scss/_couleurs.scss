@@ -1,0 +1,35 @@
+/* // Couleurs de fond */
+.white-bg {background-color: white;}
+.light-gray-bg, .light-grey-bg {background-color: #ddd;}
+.med-gray-bg, .med-grey-bg {background-color: darkgray;}
+.medium-gray-bg, .medium-grey-bg {background-color: darkgray;}
+.dark-gray-bg, .dark-grey-bg {background-color: gray;}
+.black-bg {background-color: black;}
+.green-bg {background-color: green;}
+.blue-bg {background-color: blue;}
+.red-bg {background-color: red;}
+
+/* // Typographie */
+.white-txt h1,
+.white-txt h2,
+.white-txt h3,
+.white-txt h4,
+.white-txt h5,
+.white-txt h6,
+.white-txt p,
+.white-txt {
+	color:#fff !important;
+}
+.black-txt h1,
+.black-txt h2,
+.black-txt h3,
+.black-txt h4,
+.black-txt h5,
+.black-txt h6,
+.black-txt p,
+.black-txt {
+  color: #000 !important;
+}
+
+$white: #fff;
+$light-gray: lightgray;

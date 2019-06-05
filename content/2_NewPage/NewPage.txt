@@ -1,0 +1,28 @@
+Builder: 
+
+- 
+  titre: znbxfgnjfghn
+  texte: fxgnjfxgnxfgn
+  bgcolorsection: dark-gray
+  centertxt: 'true'
+  _key: ttr-pgph
+  _uid: ttr-pgph_1559055413964_120
+- 
+  titre1: EFDafasDGFASFG
+  titre2: sdghdsghsdh
+  text1: fdjsfdhsdfghsdgh
+  text2: dzhsdghsfdgh
+  image1: [ ]
+  image2:
+    - kiss-img.png
+  centreagauche: 'true'
+  invergauche: 'false'
+  centreadroite: 'true'
+  inverdroite: 'true'
+  marginimagegauche: ""
+  marginimagedroite: m-r-l-m
+  bgcolor1: ""
+  bgcolorsection: light-gray
+  bgcolor2: ""
+  _key: columns
+  _uid: columns_1559055442299_362

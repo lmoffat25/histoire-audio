@@ -1,0 +1,10 @@
+title: bref
+headline: Brefy
+parent: site.find("bref")
+type: pages
+template:
+  - NewPage
+  - home
+  - NewPage
+  - default
+  create: default

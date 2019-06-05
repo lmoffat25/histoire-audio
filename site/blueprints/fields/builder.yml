@@ -1,0 +1,195 @@
+label: Mes blocks
+type: builder
+fieldsets:
+
+# Columns section
+  columns:
+    label: Columns
+    preview:
+      snippet: sections/columns
+      css: ../assets/css/app.css
+    fields:
+      titre1:
+        label: Titre col gauche
+        type: text
+        width: 1/2
+      titre2:
+        label: Titre col droite
+        type: text
+        width: 1/2
+
+      text1:
+        label: Paragraphe col gauche
+        type: textarea
+        size: medium
+        width: 1/2
+      text2:
+        label: Paragraphe col droite
+        type: textarea
+        size: medium
+        width: 1/2
+
+      image1:
+        label: Image col gauche
+        type: files
+        query: page.images
+        width: 1/2
+        multiple: false
+      image2:
+        label: Image col droite
+        type: files
+        query: page.images
+        width: 1/2
+        multiple: false
+
+      centreagauche:
+        label: Centrer a Gauche
+        type: toggle
+        text:
+          - off
+          - on
+        width: 1/4
+      invergauche:
+        label: Inverser le sens - Gauche
+        type: toggle
+        text:
+          - off
+          - on
+        width: 1/4
+
+      centreadroite:
+        label: Centrer a Droite
+        type: toggle
+        text:
+          - off
+          - on
+        width: 1/4
+      inverdroite:
+        label: Inverser le sens - Droite
+        type: toggle
+        text:
+          - off
+          - on
+        width: 1/4
+
+
+      marginimagegauche:
+        label: Taille image Gauche
+        type: select
+        options:
+          m-r-l-xs: Tres large
+          m-r-l-s: Large
+          m-r-l-m : Moyen
+          m-r-l-l: Petit
+          m-r-l-xl: Tres petit
+        width: 1/2
+      marginimagedroite:
+        label: Taille image Droite
+        type: select
+        options:
+          m-r-l-xs: Tres large
+          m-r-l-s: Large
+          m-r-l-m : Moyen
+          m-r-l-l: Petit
+          m-r-l-xl: Tres petit
+        width: 1/2
+
+      bgcolor1:
+        label: BG Colour Left - Column 1
+        type: select
+        options:
+          white: White
+          light-gray: Light Gray
+          med-gray: Medium Gray
+          dark-gray: Dark Gray
+          black: Black
+          green: Green
+          blue: Blue
+          red: Red
+        width: 1/3
+      bgcolorsection:
+        label: BG Colour Section
+        type: select
+        options:
+          white: White
+          light-gray: Light Gray
+          med-gray: Medium Gray
+          dark-gray: Dark Gray
+          black: Black
+          green: Green
+          blue: Blue
+          red: Red
+        width: 1/3
+      bgcolor2:
+        label: BG Colour right - Column 2
+        type: select
+        options:
+          white: White
+          light-gray: Light Gray
+          med-gray: Medium Gray
+          dark-gray: Dark Gray
+          black: Black
+          green: Green
+          blue: Blue
+          red: Red
+        width: 1/3
+
+# Bloc de texte
+  texte:
+    label: Bloc de texte
+    preview:
+      snippet: sections/texte
+      # css: assets/css/app.css
+      scss: assets/scss/_blocks.css
+    fields:
+      texte:
+        type: textarea
+      bgcolorsection:
+        label: BG Colour
+        type: select
+        options:
+          white: White
+          light-gray: Light Gray
+          med-gray: Medium Gray
+          dark-gray: Dark Gray
+          black: Black
+          green: Green
+          blue: Blue
+          red: Red
+        width: 1/4
+      verticalcenter:
+        label: Centrer verticalement
+        type: toggle
+        text:
+          - off
+          - on
+        width: 1/4
+
+# Texte primaire
+  ttr-pgph:
+    label: Titre et paragraphe
+    fields:
+      titre:
+        type: text
+      texte:
+        type: textarea
+      bgcolorsection:
+        label: BG Colour
+        type: select
+        options:
+          white: White
+          light-gray: Light Gray
+          med-gray: Medium Gray
+          dark-gray: Dark Gray
+          black: Black
+          green: Green
+          blue: Blue
+          red: Red
+        width: 1/4
+      centertxt:
+        label: Centrer le texte
+        type: toggle
+        text:
+          - off
+          - on
+        width: 1/4

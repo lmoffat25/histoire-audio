@@ -1,0 +1,46 @@
+.page-content :last-child {
+  margin-bottom: 0;
+}
+
+// Colonnes
+.section-columns {
+  min-height: 50vh;
+  height: auto;
+
+  >.column {
+    margin: 5vh 0;
+  }
+  .sub-column {
+    height: 100%;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+
+    flex-flow: column;
+  }
+}
+@media screen and (max-width:1080px) {
+  .section-columns {
+    flex-flow: column;
+
+    >.column {
+      width: 100%;
+      .page-image {
+        margin: 0 5rem;
+      }
+    }
+  }
+}
+@media screen and (max-width:720px) {
+  .section-columns {
+    >.column {
+
+      .page-image {
+        margin: 0;
+      }
+    }
+    .column:first-of-type {
+      margin-bottom: 0;
+    }
+  }
+}

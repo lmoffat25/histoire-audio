@@ -1,0 +1,41 @@
+{
+  "name": "easybop",
+  "version": "1.0.0",
+  "description": "EasyBop Site",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "foundation-sites": "^6.5.0-rc.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-css-wrap": "^0.1.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "gulp-wait2": "0.0.5",
+    "jquery": "^3.3.1",
+    "pump": "^3.0.0",
+    "what-input": "^5.1.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "motion-ui": "^2.0.3"
+  },
+  "scripts": {
+    "test": "basetest"
+  },
+  "keywords": [
+    "easybop",
+    "cms",
+    "kirby"
+  ],
+  "author": "KISS",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/kissdev/easybop.git"
+  }
+}

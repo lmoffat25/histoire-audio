@@ -1,0 +1,39 @@
+
+// Inverse le sens
+.rev-sens {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  flex-flow: column-reverse !important;
+  justify-content: flex-end;
+}
+
+// Aligne
+.vrtcl-algn {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  justify-content: center;
+}
+.hrzt-algn {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  align-items: center;
+}
+
+.center-content {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.align-text {
+  text-align: center;
+}
