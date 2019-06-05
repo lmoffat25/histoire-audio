@@ -19,12 +19,8 @@ var sassPaths = [
 ];
 
 var jsFiles = [
-    // 'js/min/jquery-3.3.1.min.js',
-    // 'js/min/foundation.min.js',
-    // 'js/min/what-input.min.js',
-    // 'js/slick/slick.min.js',
-    // 'js/useragent.js',
     'js/app.js',
+    'js/new.js',
 ];
 
 // Static Server + watching scss/html files
@@ -37,7 +33,9 @@ gulp.task('serve', ['sass'], function() {
     });
 
     gulp.watch("app/scss/*.scss", ['sass']);
-    gulp.watch("../site/**/*.php").on('change', browserSync.reload);
+    
+    // Rafraichissement au changement html
+    // gulp.watch("../site/**/*.php").on('change', browserSync.reload);
 });
 
 // Main Site SASS

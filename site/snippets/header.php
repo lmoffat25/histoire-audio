@@ -7,12 +7,14 @@
 
   <title><?= $site->title() ?> | <?= $page->title() ?></title>
 
+<!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
 
 <!-- CSS -->
   <?= css(['assets/css/app.css', '@auto']) ?>
-
-  <?= js(['assets/js/app.js', '@auto']) ?>
-
+<!-- JS -->
+  <?= js(['assets/js/compiled/global.min.js', '@auto']) ?>
 
 </head>
 <body>

@@ -1,1 +1,1 @@
-console.log('Does this work?');
+console.log('Contenu correctement compilé');
